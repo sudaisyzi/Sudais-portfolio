@@ -3,74 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudais | AI & Web Developer Portfolio</title>
+    <title>Muhammad Sudais Khan | AI Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Professional Top Navigation Bar -->
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="nav-logo">Sudais.dev</a>
+            <a href="#" class="nav-logo">Sudais<span class="logo-dot">.</span>ai</a>
             <div class="nav-links">
                 <a href="#about">About</a>
+                <a href="#education">Education</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
         </div>
     </nav>
 
-    <!-- Main Content Wrapper -->
+    <!-- Main Container -->
     <div class="container">
         
-        <!-- Premium Biodata Profile Header Section -->
-        <section id="about" class="profile-section">
+        <!-- Hero & Profile Section -->
+        <section id="about" class="profile-card">
             <div class="profile-layout">
-                <!-- Replace this src url with your real photo link anytime! -->
-                <img src="http://googleusercontent.com/image_collection/image_retrieval/12587693222875773404_0" alt="Sudais Profile Picture" class="profile-pic">
-                <div class="profile-text">
-                    <span class="badge">Available for Work</span>
-                    <h1>Hello, I'm Sudais</h1>
-                    <p class="role-title">Aspiring AI & Web Developer</p>
-                    <p class="bio-paragraph">
-                        I specialize in exploring artificial intelligence frameworks, crafting modern user interfaces, and deploying functional web platforms. Driven by technology to build systems that automate and simplify everyday tasks.
-                    </p>
+                <div class="avatar-container">
+                    <div class="avatar-placeholder">MS</div>
+                    <span class="status-indicator"></span>
+                </div>
+                <div class="profile-info">
+                    <span class="badge">Artificial Intelligence • Section Yellow</span>
+                    <h1>Muhammad Sudais Khan</h1>
+                    <p class="role-title">Undergraduate Student at PAF-IAST</p>
+                    
+                    <div class="meta-grid">
+                        <div class="meta-item"><strong>F/Name:</strong> Itwar Khan</div>
+                        <div class="meta-item"><strong>Reg No:</strong> B25F0781AI126</div>
+                        <div class="meta-item"><strong>CNIC:</strong> 16103-0425339-7</div>
+                        <div class="meta-item"><strong>Location:</strong> Katlang, Mardan, Pakistan</div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Premium Projects Section -->
-        <section id="projects">
+        <!-- Education Timeline Section -->
+        <section id="education" class="section-block">
+            <h2 class="section-title">Academic Background</h2>
+            <div class="education-timeline">
+                
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <span class="timeline-year">2025 - Present</span>
+                        <h3>Bachelors in Artificial Intelligence</h3>
+                    </div>
+                    <p class="timeline-institute">PAF-IAST, Haripur</p>
+                    <div class="timeline-badge">CGPA: 2.4</div>
+                </div>
+
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <span class="timeline-year">2023 - 2025</span>
+                        <h3>FSc (Pre-Engineering / ICS)</h3>
+                    </div>
+                    <p class="timeline-institute">Brilliant Science College, Katlang</p>
+                    <div class="timeline-badge">Marks: 963 / 1200</div>
+                </div>
+
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <span class="timeline-year">2021 - 2023</span>
+                        <h3>Matriculation</h3>
+                    </div>
+                    <p class="timeline-institute">Higher Secondary School, Mian Khan</p>
+                    <div class="timeline-badge">Marks: 962 / 1100</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-block">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
+                
                 <div class="project-card">
-                    <div class="project-thumb">🤖</div>
-                    <div class="project-content">
-                        <h3>AI Predictive Model Dashboard</h3>
-                        <p>An interactive interface prototype managing deep-learning automation scripts and parsing raw JSON analytics.</p>
-                        <a href="#" class="project-link">Explore Code &rarr;</a>
-                    </div>
+                    <div class="project-icon">🧠</div>
+                    <h3>Technical Writing & AI Core</h3>
+                    <p>Academic coursework repository focused on automated data schemas and model analysis for modern interfaces.</p>
+                    <a href="#" class="project-link">Explore Code &rarr;</a>
                 </div>
+
                 <div class="project-card">
-                    <div class="project-thumb">💻</div>
-                    <div class="project-content">
-                        <h3>Responsive Platform Layout</h3>
-                        <p>A clean web design optimized for fluid display across mobile viewports, high-definition desktops, and tablets.</p>
-                        <a href="#" class="project-link">Launch App &rarr;</a>
-                    </div>
+                    <div class="project-icon">🌐</div>
+                    <h3>Responsive Git-Page Live Platform</h3>
+                    <p>A production landing hub optimized using CSS grids, custom layouts, and cloud deployment pipelines.</p>
+                    <a href="#" class="project-link">Launch App &rarr;</a>
                 </div>
+
             </div>
         </section>
 
-        <!-- Premium Call-To-Action Contact Section -->
-        <section id="contact" class="contact-section">
-            <h2>Let's Build Something Together</h2>
-            <p>Seeking technical advice, project collaboration, or looking to recruit an ambitious developer? Reach out anytime.</p>
-            <a href="mailto:your.email@example.com" class="contact-button">Send Direct Message</a>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-card">
+            <h2>Let's Connect</h2>
+            <p>I am looking for project collaborations, technical discussions, or developer networks.</p>
+            <div class="contact-buttons">
+                <a href="mailto:Sudaisyzi259@gmail.com" class="btn btn-primary">Sudaisyzi259@gmail.com</a>
+                <a href="tel:03470967160" class="btn btn-secondary">📞 0347-0967160</a>
+            </div>
         </section>
-        
+
     </div>
 
-    <script src="script.js"></script>
 </body>
 </html>
