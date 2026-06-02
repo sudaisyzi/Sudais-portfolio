@@ -374,3 +374,9 @@ img {
   height: auto;
   display: block;
 }
+.profile-pic {
+  width: 300px; /* Adjust this number to whatever size you prefer */
+  height: 300px;
+  object-fit: cover; /* Keeps the aspect ratio clean if you force a square */
+  border-radius: 50%; /* Optional: makes it a neat circle */
+}
